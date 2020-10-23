@@ -1,5 +1,11 @@
 # STM32 Keyboard Reference Project
 
+## WARNING
+
+This schematic has not been officially tested. It follows best practices and should work, but please confirm your design before placing a large order!
+
+PCBs have been ordered to confirm the design works as intended, this warning will be removed once the design is verified.
+
 ## Goals
 
 The primary goal of this project is to provide a semi-opinionated starting point for people new to STM32 microcontrollers.
