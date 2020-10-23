@@ -505,11 +505,6 @@
       (net 5 Earth))
     (pad 13 thru_hole oval (at 4.32 2.6) (size 1 1.6) (drill oval 0.6 1.2) (layers *.Cu F.Mask)
       (net 5 Earth))
-    (model "/Users/taylor/Library/Mobile Documents/com~apple~CloudDocs/Keyboards/_Libraries/Type-C.pretty/HRO  TYPE-C-31-M-12.step"
-      (offset (xyz -4.47 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 90 180 180))
-    )
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer B.Cu) (tedit 5A02FF57) (tstamp 5F920EE0)
