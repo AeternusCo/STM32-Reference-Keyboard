@@ -35,8 +35,8 @@ It is recommended to include these as global libraries in KiCAD, as they are ver
 ## BOM
 
 | Designator | Description | Package | LCSC Part Number |
-:-----------: :-----------: :-------: :-----------------:
-U1 | STM32F072 | LQFP-48 | 12345
+|-----------|-----------| -------|-----------------|
+| U1 | STM32F072 | LQFP-48 | 12345 |
 
 ## License
 
