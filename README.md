@@ -24,7 +24,7 @@ It is recommended to include these as global libraries in KiCAD, as they are ver
 
 ### Schematic
 
-![alt](.github/schematic.png)
+![schematic.png](.github/schematic.png)
 
 ### PCB
 
