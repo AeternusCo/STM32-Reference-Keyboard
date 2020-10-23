@@ -15,9 +15,8 @@ Components used are 0603 or larger as to make hand solderability as easy as poss
 
 The following non-standard libraries were used to design this project:
 
-- ai03/Type-C (make link)
-
-- ai03/MXOnly (make link)
+- [ai03-2725/Type-C.pretty](https://github.com/ai03-2725/Type-C.pretty)
+- [ai03-2725/MX_Alps_Hybrid/MXOnly.pretty](https://github.com/ai03-2725/MX_Alps_Hybrid)
 
 It is recommended to include these as global libraries in KiCAD, as they are very commonly used on most keyboard projects.
 
