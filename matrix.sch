@@ -1,0 +1,140 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 1000 1750 0    50   Input ~ 0
+ROW0
+Text GLabel 1000 2750 0    50   Input ~ 0
+ROW1
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5FF0A0FB
+P 1500 1500
+F 0 "SW1" H 1500 1785 50  0000 C CNN
+F 1 "SW_Push" H 1500 1694 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 1500 1700 50  0001 C CNN
+F 3 "~" H 1500 1700 50  0001 C CNN
+	1    1500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 5FF0A951
+P 1300 1650
+F 0 "D1" V 1346 1582 50  0000 R CNN
+F 1 "CD4148W" V 1255 1582 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 1300 1650 50  0001 C CNN
+F 3 "~" V 1300 1650 50  0001 C CNN
+	1    1300 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1300 1550 1300 1500
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5FF0C0C6
+P 2500 1500
+F 0 "SW2" H 2500 1785 50  0000 C CNN
+F 1 "SW_Push" H 2500 1694 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 2500 1700 50  0001 C CNN
+F 3 "~" H 2500 1700 50  0001 C CNN
+	1    2500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 5FF0C0CC
+P 2300 1650
+F 0 "D2" V 2346 1582 50  0000 R CNN
+F 1 "CD4148W" V 2255 1582 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 2300 1650 50  0001 C CNN
+F 3 "~" V 2300 1650 50  0001 C CNN
+	1    2300 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2300 1550 2300 1500
+Wire Wire Line
+	2300 1750 1300 1750
+Connection ~ 1300 1750
+Wire Wire Line
+	1300 1750 1000 1750
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5FF10619
+P 1500 2500
+F 0 "SW3" H 1500 2785 50  0000 C CNN
+F 1 "SW_Push" H 1500 2694 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 1500 2700 50  0001 C CNN
+F 3 "~" H 1500 2700 50  0001 C CNN
+	1    1500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 5FF1061F
+P 1300 2650
+F 0 "D3" V 1346 2582 50  0000 R CNN
+F 1 "CD4148W" V 1255 2582 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 1300 2650 50  0001 C CNN
+F 3 "~" V 1300 2650 50  0001 C CNN
+	1    1300 2650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1300 2550 1300 2500
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5FF10626
+P 2500 2500
+F 0 "SW4" H 2500 2785 50  0000 C CNN
+F 1 "SW_Push" H 2500 2694 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 2500 2700 50  0001 C CNN
+F 3 "~" H 2500 2700 50  0001 C CNN
+	1    2500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 5FF1062C
+P 2300 2650
+F 0 "D4" V 2346 2582 50  0000 R CNN
+F 1 "CD4148W" V 2255 2582 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 2300 2650 50  0001 C CNN
+F 3 "~" V 2300 2650 50  0001 C CNN
+	1    2300 2650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2300 2550 2300 2500
+Wire Wire Line
+	2300 2750 1300 2750
+Connection ~ 1300 2750
+Wire Wire Line
+	1300 2750 1000 2750
+Text GLabel 1700 1000 1    50   Input ~ 0
+COL0
+Wire Wire Line
+	1700 1000 1700 1500
+Connection ~ 1700 1500
+Wire Wire Line
+	1700 1500 1700 2500
+Text GLabel 2700 1000 1    50   Input ~ 0
+COL1
+Wire Wire Line
+	2700 1000 2700 1500
+Wire Wire Line
+	2700 1500 2700 2500
+Connection ~ 2700 1500
+$EndSCHEMATC
